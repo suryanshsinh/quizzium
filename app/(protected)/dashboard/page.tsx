@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { getDomainsArrayLength } from "@/data/user";
+import { VideoCard } from "./video/[slug]/video-card";
 
 const SettingsPage = async () => {
     const session = await auth();
@@ -24,7 +25,9 @@ const SettingsPage = async () => {
             <div className="flex flex-col items-center justify-center mt-10 space-y-4">
                 {!domainLength && <InterestModal session={session} />}
             </div>
-            <div></div>
+            <div>
+                <VideoCard />
+            </div>
         </div>
     );
 };
