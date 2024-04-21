@@ -1,0 +1,16 @@
+export const domains = [
+    "Software Engineering",
+    "Computer Networks",
+    "Cybersecurity",
+    "Data Science",
+    "Artificial Intelligence and Machine Learning",
+    "Database Systems",
+    "Operating Systems",
+    "Embedded Systems",
+    "Computer Architecture",
+    "Human-Computer Interaction (HCI)",
+    "Computer Graphics and Visualization",
+    "Web Development",
+    "Mobile Computing",
+    "Parallel and Distributed Computing",
+];
