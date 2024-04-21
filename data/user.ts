@@ -80,3 +80,14 @@ export const getVideoTranscription = async ({ slug }: { slug: string }) => {
 
     return video?.transcription;
 };
+
+// export const updatePoints = async ({ up, session }: any) => {
+//     const p = await db.user.update({
+//         where: {
+//             id: session.user.id,
+//         },
+//         data: {
+//             points: up,
+//         },
+//     });
+// };

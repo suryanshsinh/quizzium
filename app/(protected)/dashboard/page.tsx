@@ -24,6 +24,7 @@ const SettingsPage = async () => {
             <div className="flex flex-col items-center justify-center mt-10 space-y-4">
                 {!domainLength && <InterestModal session={session} />}
             </div>
+            <div></div>
         </div>
     );
 };

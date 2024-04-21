@@ -57,4 +57,5 @@ model Video {
   transcription String?
   tags          String?
   videoId       String?
+  points        Int     @default(0)
 }

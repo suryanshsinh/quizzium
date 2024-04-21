@@ -4,7 +4,8 @@ export const quizDump = [
         question:
             "Which device is used to connect multiple computers in a network?",
         options: ["Router", "Switch", "Hub", "Modem"],
-        answer: "Switch",
+        answer: 1,
+        selected: -1,
     },
     {
         question: "What is the purpose of IP address in a network?",
@@ -14,7 +15,8 @@ export const quizDump = [
             "To uniquely identify a device",
             "To encrypt data transmission",
         ],
-        answer: "To uniquely identify a device",
+        answer: 2,
+        selected: -1,
     },
     {
         question: "What does 'LAN' stand for in computer networking?",
@@ -24,12 +26,14 @@ export const quizDump = [
             "Local Area Network",
             "Logical Area Network",
         ],
-        answer: "Local Area Network",
+        answer: 2,
+        selected: -1,
     },
     {
         question: "Which protocol is used for sending emails?",
         options: ["HTTP", "FTP", "SMTP", "SSH"],
-        answer: "SMTP",
+        answer: 2,
+        selected: -1,
     },
     {
         question: "What is the function of a firewall in network security?",
@@ -39,13 +43,15 @@ export const quizDump = [
             "To create a virtual private network",
             "To amplify network signals",
         ],
-        answer: "To filter network traffic",
+        answer: 0,
+        selected: -1,
     },
     {
         question:
             "What is the maximum data rate of a standard Ethernet connection?",
         options: ["10 Mbps", "100 Mbps", "1 Gbps", "10 Gbps"],
-        answer: "1 Gbps",
+        answer: 2,
+        selected: -1,
     },
     {
         question:
@@ -56,7 +62,8 @@ export const quizDump = [
             "Network layer",
             "Transport layer",
         ],
-        answer: "Network layer",
+        answer: 2,
+        selected: -1,
     },
     {
         question: "What does DNS stand for in computer networking?",
@@ -66,7 +73,8 @@ export const quizDump = [
             "Digital Networking Standard",
             "Dynamic Naming Service",
         ],
-        answer: "Domain Name System",
+        answer: 0,
+        selected: -1,
     },
     {
         question:
@@ -77,13 +85,15 @@ export const quizDump = [
             "Ring topology",
             "Mesh topology",
         ],
-        answer: "Star topology",
+        answer: 0,
+        selected: -1,
     },
     {
         question:
             "Which protocol is used for secure communication over a network?",
         options: ["HTTP", "FTP", "SSH", "UDP"],
-        answer: "SSH",
+        answer: 2,
+        selected: -1,
     },
 ];
 
